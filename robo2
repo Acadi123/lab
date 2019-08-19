@@ -1,0 +1,12 @@
+count = 0
+lista = []
+lista = input().upper()
+for e in range(len(lista)):
+    if "F" in lista[e]:
+        count += 1
+    if "T" in lista[e]:
+        count -= 1
+if count == 0:
+    print(count)
+else:
+    print(lista)
