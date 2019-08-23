@@ -16,8 +16,6 @@ for i in range(0,p):
             else:
                 print("we")
                 for k in range(len(listapc)):
-                    #print(listaSeq[n])
-                    #print(listapc[k])
                     if str(listaSeq[n]) not in str(listapc[k]):
                         corQNpode = str(listapc[k][1:])
                         #pegar prox cor
